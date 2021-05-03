@@ -1,0 +1,28 @@
+.navbar {
+  background: var(--color-background-base);
+  border: var(--border-width-default) solid 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__item {
+  align-items: center;
+  display: flex;
+  font-size: var(--font-size-4);
+}
+
+.navbar__item a {
+  padding: 1rem;
+}
+
+.navbar__item input {
+  font-size: var(--font-size-3);
+  border-radius: var(--border-radius-small);
+}
+
+.avatar {
+  border-radius: 50%;
+  padding: 5px;
+  background: var(--color-background-base);
+}
