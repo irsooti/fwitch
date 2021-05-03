@@ -2,15 +2,19 @@
 
 - Registrare un'applicazione su dev.twitch.tv al seguente indirizzo: https://dev.twitch.tv/console/apps/create
 - Sostituire il valore di `REACT_APP_TWITCH_CLIENT_ID` con il valore ID client presente nella dev console di twitch.
+
   ![Twitch sample](./docs/sample.png)
 
 # Requisiti
 
 L'applicazione deve essere dotata di 3 funzionalità:
 
-- Cercare da una categoria (vedi api `searchCategories`);
-- Selezionare una categoria e visualizzare una lista di video associati (vedi api `getGames`)
+- Cercare una categoria (vedi api `searchCategories`);
+- Selezionare una categoria e visualizzare una lista di elementi associati (vedi api `getGames`)
 - Visualizzare top ten dei videogiochi più giocati (vedi api `getTopGames`)
+
+I componenti da realizzare possono essere stilizzati a piacere o seguendo lo stile guida che potete trovare su twitch. 
+Ognuno di questi dovrà mostrare **almeno** titolo e copertina.
 
 # Getting Started with Create React App
 
