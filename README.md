@@ -13,7 +13,7 @@ L'applicazione deve essere dotata di 3 funzionalità:
 - Selezionare una categoria e visualizzare una lista di elementi associati (vedi api `getGames`)
 - Visualizzare top ten dei videogiochi più giocati (vedi api `getTopGames`)
 
-I componenti da realizzare possono essere stilizzati a piacere o seguendo lo stile guida che potete trovare su twitch. 
+I componenti da realizzare possono essere stilizzati a piacere o seguendo lo stile guida presente su twitch. 
 Ognuno di questi dovrà mostrare **almeno** titolo e copertina.
 
 # Getting Started with Create React App
